@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 400px;
+  min-height: 560px;
 }
 
 .u-section-1 .u-text-1 {
@@ -94,7 +94,7 @@
 }
 
 .u-section-1 .u-text-6 {
-  margin: 0 auto;
+  margin: 98px auto 0;
 }
 
 .u-section-1 .u-btn-5 {
@@ -206,4 +206,19 @@
     margin-top: 13px;
     margin-bottom: 47px;
   }
+}.u-section-2 .u-sheet-1 {
+  min-height: 400px;
+}
+
+.u-section-2 .u-text-1 {
+  margin: 146px auto 0;
+}
+
+.u-section-2 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 30px auto 0;
 }
