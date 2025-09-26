@@ -146,6 +146,15 @@ main section p {
   background-color: #1a1a1a;
 }
 
+.osec-logo {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
 /* Footer */
 footer {
   text-align: center;
@@ -173,3 +182,4 @@ footer {
 .social-icons img:hover {
   transform: scale(1.2);
 }
+
