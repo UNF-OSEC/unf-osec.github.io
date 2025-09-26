@@ -26,6 +26,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding-top: 60px; /* offset for sticky header */
+  background-color: #121212; /* dark background */
 }
 
 /* Sticky header */
@@ -100,13 +101,13 @@ main section {
   margin-bottom: 60px;
   padding: 30px 20px;
   border-radius: 10px;
-  background-color: #f9f9f9; /* light grey background */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  background-color: #131313; 
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05);
 }
 main section h1 {
   font-size: 2rem;
   margin-bottom: 15px;
-  color: #222;
+  color: #fff;
   text-align: center; /* center headings for emphasis */
 }
 
@@ -115,13 +116,14 @@ main section p {
   font-size: 1.1rem;
   margin-bottom: 10px;
   text-align: justify; /* makes long text look clean */
+  color: #ddd
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #1a1a1a;
-  color: #b9b9b9;
+  background-color: #111;
+  color: #f1f1f1;
   font-size: 14px;
 }
 
@@ -137,8 +139,8 @@ footer {
 }
 
 .social-icons img {
-  width: 24px;
-  height: 24px;
+  width: 10px;
+  height: 10px;
   transition: transform 0.2s ease;
 }
 
