@@ -1,114 +1,164 @@
-.u-section-1 .u-sheet-1 {
-  min-height: 400px;
+/* Reset and body */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.u-section-1 .u-layout-wrap-1 {
-  margin-top: 60px;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;  /* black page background */
+  color: #f1f1f1;          /* light text */
+  padding-top: 60px;       /* offset for sticky header */
+  line-height: 1.6;
+}
+
+/* Sticky header */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #111;  /* dark header */
+  padding: 10px 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Nav links */
+.nav-link {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+#about-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+#about-section h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+#about-section h3 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+#about-section p {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: justify;
+}
+
+
+
+/* Discord icon */
+.discord-link img {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.discord-link img:hover {
+  transform: scale(1.2);
+}
+
+/* Main content */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Sections common */
+main section {
   margin-bottom: 60px;
-  position: relative;
+  padding: 30px 20px;
+  border-radius: 10px;
+  background-color: #111; /* slightly lighter than body */
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05);
 }
 
-.u-section-1 .u-layout-cell-1 {
-  min-height: 400px;
+/* Section headings */
+main section h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #f1f1f1;
+  text-align: center;
 }
 
-.u-section-1 .u-container-layout-1 {
-  padding: 30px;
+/* Section paragraphs */
+main section p {
+  font-size: 1.1rem;
+  color: #ddd;
+  text-align: justify;
 }
 
-.u-section-1 .u-layout-cell-2 {
-  min-height: 400px;
+/* Optional accent for first section */
+#Content {
+  background-color: #1a1a1a;
 }
 
-.u-section-1 .u-container-layout-2 {
-  padding: 30px;
+/* Optional accent for story section */
+#Story {
+  background-color: #1a1a1a;
 }
 
-.u-section-1 .u-text-1 {
-  margin-bottom: 0;
-  margin-top: 0;
+.osec-logo {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
 }
 
-.u-section-1 .u-text-2 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: #f1f1f1;
 }
 
-@media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 330px;
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 330px;
-  }
-
-  .u-section-1 .u-layout-cell-2 {
-    min-height: 330px;
-  }
+/* Social icons */
+.social-icons {
+  margin-top: 10px;
 }
 
-@media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 253px;
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 253px;
-  }
-
-  .u-section-1 .u-layout-cell-2 {
-    min-height: 100px;
-  }
+.social-icons a {
+  display: inline-block;
+  margin: 0 8px;
 }
 
-@media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 480px;
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 380px;
-  }
-
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-container-layout-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+.social-icons img {
+  width: 24px;  /* smaller icons */
+  height: 24px;
+  transition: transform 0.2s ease;
 }
 
-@media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 339px;
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 239px;
-  }
-}.u-section-2 .u-sheet-1 {
-  min-height: 321px;
+.social-icons img:hover {
+  transform: scale(1.2);
 }
 
-.u-section-2 .u-form-1 {
-  height: 239px;
-  width: 570px;
-  margin: 0 auto 60px;
-}
-
-@media (max-width: 767px) {
-  .u-section-2 .u-form-1 {
-    width: 540px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-2 .u-form-1 {
-    width: 340px;
-  }
-}
