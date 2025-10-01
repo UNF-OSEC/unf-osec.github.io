@@ -20,7 +20,7 @@ body {
   left: 0;
   width: 100%;
   background-color: #111;  /* dark header */
-  padding: 10px 20px;
+  padding: 20px 40px;
   z-index: 1000;
   display: flex;
   justify-content: center;
@@ -31,15 +31,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px 20px;
   position: fixed;
+  top: 0;
   width: 100%;
+  padding: 10px 20px;
   max-width: 1200px;
 }
 
 .nav-links {
   display: flex;
-  gap: 30px;
+  gap: 30px; /* gap between home and about us links in header */
 }
 
 /* Nav links */
