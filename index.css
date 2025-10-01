@@ -31,6 +31,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 /* Nav links */
@@ -44,7 +45,7 @@ body {
 
 
 .nav-link:hover {
-  color: #132fce;
+  color: #1d36c7;
 }
 
 /* Discord icon */
@@ -92,12 +93,12 @@ main section p {
 
 /* Optional accent for first section */
 #Content {
-  background-color: #1a1a1a;
+  background-color: #111;
 }
 
 /* Optional accent for story section */
 #Story {
-  background-color: #1a1a1a;
+  background-color: #111;
 }
 
 .osec-logo {
