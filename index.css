@@ -48,6 +48,21 @@ body {
   color: #1d36c7;
 }
 
+.nav-discord-button {
+  background-color: #5865F2; /* Discord blurple */
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-discord-button:hover {
+  background-color: #4752C4; /* Darker on hover */
+}
+
 /* Discord icon */
 .discord-link img {
   width: 10px;
