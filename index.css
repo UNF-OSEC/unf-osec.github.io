@@ -39,7 +39,7 @@ body {
 
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 /* Nav links */
@@ -53,7 +53,7 @@ body {
 
 
 .nav-link:hover {
-  color: #233bc4;
+  color: #1d59c9;
 }
 
 .nav-discord-button {
