@@ -32,6 +32,9 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 20px 40px;
+  position: fixed;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .nav-links {
