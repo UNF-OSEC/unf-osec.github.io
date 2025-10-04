@@ -15,7 +15,6 @@ body {
   width: 100%;
   background-color: #111;  /* dark header */
   z-index: 1000;
-  display: flex;
   box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
@@ -27,6 +26,7 @@ body {
 }
 
 .nav-links {
+  margin: 0 auto;
   display: flex;
   gap: 30px; /* gap between home and about us links in header */
   justify-content: center;
