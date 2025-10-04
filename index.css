@@ -25,6 +25,11 @@ body {
   padding: 10px 20px;
 }
 
+.nav-logo img {
+  width: 30px;
+  height: 30px; 
+}
+
 .nav-links {
   display: flex;
   gap: 30px; /* gap between home and about us links in header */
@@ -134,22 +139,22 @@ footer {
 }
 
 /* Social icons */
-.social-icons {
+.social-icons-footer {
   margin-top: 10px;
 }
 
-.social-icons a {
+.social-icons-footer a {
   display: inline-block;
   margin: 0 8px;
 }
 
-.social-icons img {
-  width: 30px;  /* smaller icons */
-  height: 30px;
+.social-icons-footer img {
+  width: 34px;  /* smaller icons */
+  height: 34px;
   transition: transform 0.2s ease;
 }
 
-.social-icons img:hover {
+.social-icons-footer img:hover {
   transform: scale(1.2);
 }
 
