@@ -16,7 +16,6 @@ body {
   background-color: #111;  /* dark header */
   z-index: 1000;
   display: flex;
-  justify-content: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
@@ -30,7 +29,8 @@ body {
 .nav-links {
   display: flex;
   gap: 30px; /* gap between home and about us links in header */
-  margin: 0 auto; /* center the nav links */
+  justify-content: center;
+  flex: 1; /* take up remaining space */
 }
 
 /* Nav links */
@@ -60,7 +60,7 @@ body {
 }
 
 .nav-discord-button:hover {
-  background-color: #3b47cf; /* Darker on hover */
+  background-color: #3846da; /* Darker on hover */
 }
 
 /* Discord icon */
