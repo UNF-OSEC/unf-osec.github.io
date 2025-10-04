@@ -43,6 +43,7 @@ body {
   color: #f1f1f1;
   text-decoration: none;
   font-weight: bold;
+  gap: 50px;
   font-size: 18px;
   transition: color 0.3s ease;
 }
