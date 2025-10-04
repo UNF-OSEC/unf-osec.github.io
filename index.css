@@ -144,13 +144,12 @@ footer {
 }
 
 .social-icons img {
-  width: 28px;  /* smaller icons */
-  height: 28px;
+  width: 30px;  /* smaller icons */
+  height: 30px;
   transition: transform 0.2s ease;
 }
 
 .social-icons img:hover {
   transform: scale(1.2);
 }
-
 
