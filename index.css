@@ -25,11 +25,16 @@ body {
   padding: 10px 20px;
 }
 
+.left,
+.nav-links,
+.discord-btn {
+  flex: 1;  /* each takes equal space */
+}
+
 .nav-links {
   display: flex;
   gap: 30px; /* gap between home and about us links in header */
   justify-content: center;
-  flex: 1; /* take up remaining space */
 }
 
 /* Nav links */
@@ -47,7 +52,6 @@ body {
 }
 
 .nav-discord-button {
-  flex: 1;
   display: inline-block;
   background-color: #5865F2; /* Discord blurple */
   color: #fff;
@@ -57,6 +61,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   transition: background-color 0.3s ease;
+  justify-self: flex-end;
 }
 
 .nav-discord-button:hover {
