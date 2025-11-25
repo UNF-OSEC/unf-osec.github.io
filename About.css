@@ -66,6 +66,8 @@ body {
   margin-bottom: 10px;
   color: #ffffff;
   text-align: center;
+  align-items: center;
+  width: 100%;
 }
 
 .about-section h3 {
