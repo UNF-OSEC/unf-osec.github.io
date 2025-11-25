@@ -48,27 +48,29 @@ body {
   color: #00bcd4;
 }
 
-about section h1 {
+.about-section h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
   color: #ffffff;
+  text-align: center;
 }
 
-about section h2 {
-  font-size: 1.8rem;
+.about-section h2 {
+  font-size: 2.0rem;
   margin-top: 20px;
   margin-bottom: 10px;
   color: #ffffff;
+  text-align: center;
 }
 
-about section h3 {
-  font-size: 1.5rem;
+.about-section h3 {
+  font-size: 1.8rem;
   margin-top: 15px;
   margin-bottom: 8px;
   color: #ffffff;
 }
 
-about section p {
+.about-section p {
   font-size: 1.2rem;
   color: #ffffff;
   text-align: justify;
@@ -100,28 +102,6 @@ main section {
   border-radius: 10px;
   background-color: #111; /* slightly lighter than body */
   box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05);
-}
-
-/* Section headings */
-main section h1 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-  color: #f1f1f1;
-  text-align: center;
-}
-
-main section h2 {
-  font-size: 1.5rem;
-  margin-bottom: 12px;
-  color: #f1f1f1;
-  text-align: center;
-}
-
-/* Section paragraphs */
-main section p {
-  font-size: 1.1rem;
-  color: #ddd;
-  text-align: justify;
 }
 
 .osec-logo {
