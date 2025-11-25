@@ -74,8 +74,6 @@ about section p {
   text-align: justify;
 }
 
-
-
 /* Discord icon */
 .discord-link img {
   width: 10px;
@@ -112,21 +110,18 @@ main section h1 {
   text-align: center;
 }
 
+main section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #f1f1f1;
+  text-align: center;
+}
+
 /* Section paragraphs */
 main section p {
   font-size: 1.1rem;
   color: #ddd;
   text-align: justify;
-}
-
-/* Optional accent for first section */
-#Content {
-  background-color: #1a1a1a;
-}
-
-/* Optional accent for story section */
-#Story {
-  background-color: #1a1a1a;
 }
 
 .osec-logo {
