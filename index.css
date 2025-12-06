@@ -116,6 +116,23 @@ main section p {
   background-color: #111;
 }
 
+
+section#resources-list ul {
+  list-style-type: disc;
+  padding-left: 20px;
+
+  margin-left:auto;
+  display: inline-block;
+  background-color: #023dac;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
 /* Optional accent for story section */
 #Story {
   background-color: #111;
