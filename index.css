@@ -118,6 +118,7 @@ main section p {
 
 
 section#resources-list ul {
+  list-style-type: disc;
   padding-left: 20px;
 }
 
