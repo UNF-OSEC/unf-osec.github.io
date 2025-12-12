@@ -125,10 +125,11 @@ main section p {
   box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
 }
 
-section#resources-list ul {
-  list-style-type: disc;
+.resources-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   padding-left: 20px;
-
   margin-left:auto;
   display: inline-block;
   background-color: #023dac;
