@@ -124,8 +124,6 @@ main section p {
 }
 
 .resource-button-1, .resource-button-2, .resource-button-3 {
-  display: flex;
-  flex-direction: column;
   background-color: #023dac;
   color: #fff;
   padding: 8px 15px;
