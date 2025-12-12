@@ -127,11 +127,10 @@ main section p {
 
 .resources-list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 15px;
   padding-left: 20px;
   margin-left:auto;
-  display: inline-block;
   background-color: #023dac;
   color: #fff;
   padding: 8px 15px;
