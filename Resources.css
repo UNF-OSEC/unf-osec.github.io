@@ -127,7 +127,7 @@ main section p {
 
 .resources-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 15px;
   padding-left: 20px;
   margin-left:auto;
