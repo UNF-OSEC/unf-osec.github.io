@@ -1,4 +1,4 @@
-import './index.css';
+import './resources.css';
 
 function App() {
   return (
