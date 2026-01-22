@@ -1,6 +1,14 @@
+import React, {useState} from 'react';
+import LoadingScreen from './LoadingScreen';
 import './resources.css';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  if (loading) {
+    return <LoadingScreen onLoadComplete={() => setLoading(false)} />;
+  }
+
   return (
     <main>
       <section id="Content">
