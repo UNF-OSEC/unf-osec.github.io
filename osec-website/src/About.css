@@ -1,0 +1,145 @@
+/* Reset and body */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;  /* black page background */
+  color: #f1f1f1;          /* light text */
+  padding-top: 60px;       /* offset for sticky header */
+  line-height: 1.6;
+}
+
+/* Sticky header */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #111;  /* dark header */
+  padding: 10px 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Nav links */
+.nav-link {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #00bcd4;
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.0rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.about-section h3 {
+  font-size: 1.8rem;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: justify;
+}
+
+/* Discord icon */
+.discord-link img {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.discord-link img:hover {
+  transform: scale(1.2);
+}
+
+/* Main content */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Sections common */
+main section {
+  margin-bottom: 60px;
+  padding: 30px 20px;
+  border-radius: 10px;
+  background-color: #111; /* slightly lighter than body */
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05);
+}
+
+.osec-logo {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: #f1f1f1;
+}
+
+/* Social icons */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.social-icons img {
+  width: 24px;  /* smaller icons */
+  height: 24px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+

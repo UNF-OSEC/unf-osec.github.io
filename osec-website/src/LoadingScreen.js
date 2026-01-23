@@ -32,9 +32,9 @@ const LoadingScreen = ({onLoadComplete}) => {
                 }
             } else {
                 clearInterval(interval);
-                setTimeout(() => onLoadComplete(), 1000);
+                setTimeout(() => onLoadComplete(), 1100);
             }
-        }, 500);
+        }, 600);
 
         return () => clearInterval(interval);
     }, [onLoadComplete]);

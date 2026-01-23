@@ -116,45 +116,10 @@ main section p {
   background-color: #111;
 }
 
-
-.resources-list {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  padding-left: 20px;
-  margin-left:auto;
-  background-color: #023dac;
-  color: #fff;
-  padding: 8px 15px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
+/* Optional accent for story section */
+#Story {
+  background-color: #111;
 }
-
-#resources-list {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  padding-left: 20px;
-}
-
-.resource-button-1, .resource-button-2, .resource-button-3 {
-  background-color: #135feb;
-  color: #fff;
-  padding: 8px 15px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-}
-
-.resource-button-1:hover, .resource-button-2:hover, .resource-button-3:hover {
-  background-color: #023dac; /* Darker on hover */
-}
-
 
 .osec-logo {
   display: block;
